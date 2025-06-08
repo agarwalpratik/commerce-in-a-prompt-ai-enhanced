@@ -1,4 +1,4 @@
-import { parsePrompt } from "../utils/parsePrompt";
+import { parsePrompt } from "../../utils/parsePrompt";
 export default async function handler(req, res) {
   const { prompt } = req.body;
   try {
